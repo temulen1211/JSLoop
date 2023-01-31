@@ -11,7 +11,7 @@ console.log('\n');
 
 let oddNum = 0;
 while(oddNum <= 10){
-  if(oddNum % 2 == 1){
+  if(oddNum % 2 !== 0){
       console.log(oddNum);
   }
    oddNum++;
